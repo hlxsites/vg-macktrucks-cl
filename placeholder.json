@@ -182,6 +182,10 @@
     {
       "Key": "All trucks",
       "Text": "All trucks"
+    },
+    {
+      "Key": "404 Back link title",
+      "Text": "Volver atrás"
     }
   ],
   ":type": "sheet"

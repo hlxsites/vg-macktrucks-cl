@@ -1109,7 +1109,7 @@ main .section.responsive-title h1 {
 }
 
 /* Remove padding top of consecutive sections with background image or colors */
-.redesign-v2 .section:first-child,
+.redesign-v2:not:has(main.error) .section:first-child,
 .redesign-v2 .v2-testimonial-container,
 .redesign-v2 .section:not(.section--black-background, .section--gray-background, .v2-hero-container, .section--with-background) + .section:not(.section--black-background, .section--gray-background, .section--with-background) {
   padding-top: 0;
